@@ -1,0 +1,102 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #4e342e; /* Brown */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Custom colors */
+  .bg-dark-red {
+    background-color: #8B0000 !important;
+  }
+  
+  .text-dark-red {
+    color: #8B0000;
+  }
+  
+  .text-brown {
+    color: #5D4037;
+  }
+  
+  .btn-brown {
+    background-color: #5D4037;
+    color: white;
+    border: none;
+  }
+  
+  .btn-brown:hover {
+    background-color: #4E342E;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #B71C1C;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #8B0000;
+    color: white;
+  }
+  
+  /* Navbar */
+  .navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Hero section with background image */
+  .hero-section {
+    background-image: url('images/hero-bg.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .hero-section h1,
+  .hero-section p {
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  }
+  
+  /* Section headers */
+  section h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Gallery images */
+  .gallery img {
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #8B0000;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 60px 0;
+    }
+    .navbar-brand img {
+      width: 30px;
+      height: 30px;
+    }
+  }  
